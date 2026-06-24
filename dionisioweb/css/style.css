@@ -1,0 +1,173 @@
+body {
+    background-color: #56070C;
+}
+h1 {
+    color: aliceblue;  
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    
+}
+
+/* Zera as margens e paddings padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estiliza o cabeçalho e o container do menu */
+header {
+    background-color: #7a2e2e;
+    padding: 15px 30px;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estiliza o logotipo */
+.menu-navegacao .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Organiza a lista de links na horizontal */
+.menu-navegacao ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-navegacao ul li {
+    margin-left: 25px;
+}
+
+/* Estiliza os links */
+.menu-navegacao ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.menu-navegacao ul li a:hover {
+    color: #200225;
+    background-color: #aa575c;
+}
+
+h2{
+    color: #A07FC8;
+    font-size: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Container Pai: ativa o Flexbox para alinhar os filhos lado a lado */
+.container{
+    display: flex;
+    justify-content: center; /* Centraliza o grupo de imagens na tela */
+    gap: 20px;               /* Cria um espaçamento fixo de 20px entre as fotos */
+    padding: 20px;
+    width: 100%;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.p1{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #7a2e2e;
+    margin: 20px, 20px, 20px, 20px;
+    background-size: 100px;
+}
+
+.subtitulo{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.p2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:  20px;
+}
+
+.imgcenter{
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical (se a div tiver altura fixa) */
+}
+
+.p3{
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.p4{
+    color: aqua;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-left: 30px;
+
+}
+
+.menor{
+    margin: 50px, 50px, 50px, 50px,;
+
+}
+.p5{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h3{
+    color: #A07FC8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 100px;
+
+}
